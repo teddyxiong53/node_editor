@@ -10,12 +10,11 @@
 
 ## 快速开始
 ```bash
-git clone https://github.com/teddyxiong53/imgui-test.git
-cd imgui-test
-mkdir build && cd build
-cmake ..
-make
-./node_editor
+git clone https://github.com/teddyxiong53/node_editor.git
+cd node_editor
+xmake f -p macosx -a arm64
+xmake
+./bin/node_editor
 ```
 
 ## 依赖项
