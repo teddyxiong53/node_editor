@@ -1,0 +1,74 @@
+{
+    glfw = {
+        __requirestr = "glfw",
+        static = true,
+        license = "zlib",
+        libfiles = "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/lib/libglfw3.a",
+        links = "glfw3",
+        __enabled = true,
+        version = "3.4",
+        defines = {
+            "GLFW_INCLUDE_NONE",
+            "GL_SILENCE_DEPRECATION"
+        },
+        sysincludedirs = "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/include",
+        linkdirs = "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/lib",
+        frameworks = {
+            "Cocoa",
+            "IOKit",
+            "OpenGL"
+        },
+        envs = {
+            PATH = {
+                "/Users/teddy/.xmake/packages/c/cmake/4.0.0/fa78a19afef84474adcf49be871c5f39/bin"
+            }
+        },
+        installdir = "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976"
+    },
+    imgui = {
+        __requirestr = "imgui v1.91.4-docking",
+        static = true,
+        license = "MIT",
+        linkdirs = {
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/lib",
+            "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/lib"
+        },
+        links = {
+            "imgui",
+            "glfw3"
+        },
+        __enabled = true,
+        version = "v1.91.4-docking",
+        __requireconfs = {
+            configs = {
+                glfw_opengl3 = true
+            }
+        },
+        sysincludedirs = {
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/include",
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/include/imgui",
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/include/backends",
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/include/misc/cpp",
+            "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/include"
+        },
+        libfiles = {
+            "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6/lib/libimgui.a",
+            "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976/lib/libglfw3.a"
+        },
+        defines = {
+            "GLFW_INCLUDE_NONE",
+            "GL_SILENCE_DEPRECATION"
+        },
+        frameworks = {
+            "Cocoa",
+            "IOKit",
+            "OpenGL"
+        },
+        envs = {
+            PATH = {
+                "/Users/teddy/.xmake/packages/c/cmake/4.0.0/fa78a19afef84474adcf49be871c5f39/bin"
+            }
+        },
+        installdir = "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6"
+    }
+}

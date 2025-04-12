@@ -1,0 +1,7 @@
+{
+    packages = {
+        "/Users/teddy/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5",
+        "/Users/teddy/.xmake/packages/g/glfw/3.4/3ce34c98157445c898b9d2bf71391976",
+        "/Users/teddy/.xmake/packages/i/imgui/v1.91.4-docking/3836c950eb9948ebac164e3c2525abd6"
+    }
+}

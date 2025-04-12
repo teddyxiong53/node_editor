@@ -1,0 +1,10 @@
+{
+    recheck = false,
+    options = {
+        plat = "macosx",
+        arch = "arm64"
+    },
+    mtimes = {
+        ["xmake.lua"] = 1744437306
+    }
+}
